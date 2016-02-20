@@ -1,0 +1,79 @@
+$navbar-default-bg: #404040;
+$navbar-border-radius: 0;
+$navbar-default-link-color: #f8f8f8;
+$navbar-default-link-hover-color: white;
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+.navbar-default li {
+  font-size:1.3em;
+  text-align:center;
+  }
+.navbar-default {
+  margin:0;
+  border-radius:0;
+}
+.brand{
+  padding-top:5px;
+  text-transform: uppercase;
+  font-family:Arial, Helvetica, sans-serif;
+  letter-spacing:-1px;
+  font-weight:600;
+}
+.white{
+  color:#f8f8f8;
+}
+.blue{
+  color:#0099FF;
+  font-size: 0.9em;
+}
+
+.jumbotron h1{
+
+  text-transform: uppercase;
+  text-align:center;
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+  letter-spacing:-1px;
+  font-weight:bold;
+}
+
+.jumbotron .green{
+  color: #00CC00;
+}
+.jumbotron {
+margin:0;
+}
+.topic{
+  padding-top: 10px;
+}
+.topic h1{
+  text-align:center;
+  border-bottom:2px #00CC00 solid;
+}
+.topic p{
+  font-size: 1.2em;
+}
+.topic li {
+  text-decoration:none;
+  list-style:none;
+  padding-left:0;
+  margin-left:0;
+}
+.topic li a{
+  text-decoration:none;
+  color:#0099FF;
+  border-bottom:2px #A0A0A0 solid;
+
+}
+.topic li a:hover{
+  color: #00CC00;
+}
+
+.sticky {
+    position:fixed;
+    top:0;
+}
