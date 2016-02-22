@@ -6,7 +6,11 @@ $navbar-default-link-hover-color: white;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
+@media (max-width: 320px) {
+.element {
+      width: 90%;   
+     }
+}
 
 .navbar-default li {
   font-size:1.3em;
