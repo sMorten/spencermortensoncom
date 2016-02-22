@@ -2,25 +2,36 @@ $navbar-default-bg: #404040;
 $navbar-border-radius: 0;
 $navbar-default-link-color: #f8f8f8;
 $navbar-default-link-hover-color: white;
+@screen-xs:                  480px;
+//** Deprecated `@screen-xs-min` as of v3.2.0
+@screen-xs-min:              @screen-xs;
+//** Deprecated `@screen-phone` as of v3.0.1
+@screen-phone:               @screen-xs-min;
 
+// Small screen / tablet
+//** Deprecated `@screen-sm` as of v3.0.1
+@screen-sm:                  768px;
+@screen-sm-min:              @screen-sm;
+//** Deprecated `@screen-tablet` as of v3.0.1
+@screen-tablet:              @screen-sm-min;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @media screen and (min-width: 980px) /* Desktop */ {
   body {
-    
+
   }
 }
 
 @media screen  and (max-width: 979px) /* Tablet */ {
   body {
-    
+
   }
 }
 
 @media screen and (max-width: 500px) /* Mobile */ {
   body {
-   
+
   }
 }
 
