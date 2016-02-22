@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Spencermortenson</title>
-  
+
   <meta name="description" content="Personal site for everything going on with Spencer Mortenson">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -10,6 +10,8 @@
   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
 </head>
 <body>
+<% require 'mixpanel-ruby' %>
+<% tracker = Mixpanel::Tracker.new("e90c80e27a9f826a22f4b30be3ef8721") %>
 
 <%= yield %>
 

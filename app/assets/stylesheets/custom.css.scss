@@ -6,10 +6,22 @@ $navbar-default-link-hover-color: white;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@media (max-width: 320px) {
-.element {
-      width: 90%;   
-     }
+@media screen and (min-width: 980px) /* Desktop */ {
+  body {
+    
+  }
+}
+
+@media screen  and (max-width: 979px) /* Tablet */ {
+  body {
+    
+  }
+}
+
+@media screen and (max-width: 500px) /* Mobile */ {
+  body {
+   
+  }
 }
 
 .navbar-default li {
