@@ -22,5 +22,6 @@ module Spencermortenson
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+    config.event_tracker.mixpanel_key = "e90c80e27a9f826a22f4b30be3ef8721"
   end
 end
