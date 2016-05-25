@@ -17,6 +17,38 @@ $navbar-default-link-hover-color: white;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.fullHeight{
+  height:100vh;
+
+
+}
+.btnMain{
+  text-align:center;
+
+}
+.btnMain1{
+
+
+  border: 5px solid #00CC00;
+  border-radius:2em;
+
+  margin-top:70px;
+  text-decoration:none;
+  vertical-align: middle;
+  line-height: 90px;
+  font-size: 1.2em;
+  text-transform:uppercase;
+  background-color:#0099FF;
+  text-align:center;
+  color:#e5e5e5;
+
+}
+.btnMain1:hover{
+  border: 5px solid #0099FF;
+  background-color:#00CC00;
+}
+
 @media screen and (min-width: 980px) /* Desktop */ {
   body {
 
@@ -31,6 +63,15 @@ $navbar-default-link-hover-color: white;
 
 @media screen and (max-width: 500px) /* Mobile */ {
   body {
+    .btnMain1{
+
+
+  border: 3px solid #00CC00;
+  margin-top:70px;
+
+  font-size: 0.8em;
+  text-decoration:none;
+}
 
   }
 }
@@ -115,4 +156,8 @@ margin:0;
   padding-top:20px;
 
 }
-
+.jumbotron h2{
+  text-align:center;
+  font-size:2em;
+  text-transform:uppercase;
+}

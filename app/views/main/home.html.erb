@@ -1,31 +1,31 @@
 
 
-<div class="jumbotron">
+<div class="jumbotron fullHeight">
   <h1><span class="green">Spencer</span><br /> <span class="grey"> Mortenson</span></h1>
+<div class="container-fluid">
+  <div class="row row-centered">
 
-</div>
-<%= render 'layouts/header' %>
-<div class="container">
-  <div class="row">
-    <div class="col-xs-8 col-xs-offset-2 topic" id="bio" name="bio">
-      <h1>Bio</h1>
-      <p>I'm an mechanical engineer by training with a strong interest in business development and programming. I grew up in an oil town and fell into the industry. I am extremely thankful for the opportunities I have been given and continually look to expand my skill set.  </p>
-      <p>Business has always been elusive and exotic to me, but I've always have had an interest. After living with a friend with an entrepreneurial spirit, I discovered a bit of the same in myself. Now I look for ways I can add value to others and learn more about myself along the way.</p>
+
+      <%= link_to dev_path do%>
+      <div class="col-md-3 col-md-offset-2 col-centered btnMain1 fadeIn">
+        Web Development
+       </div>
+      <% end %>
+
+
+
+
+      <%= link_to personal_path do%>
+    <div class="col-md-3 col-md-offset-2 col-centered btnMain1 fadeIn">
+        Personal Site
     </div>
-    <div class="col-xs-8 col-xs-offset-2 topic" id="about" name="about">
-      <h1>About</h1>
-      <p>This site was developped to showcase my current obsessions, projects, passions..... as well as refine my web development and rails skills.<br/> This site is still under construction but please stay tuned as there will be more to come. </p>
-    </div>
-    <div class="col-xs-8 col-xs-offset-2 topic" id="projects" name="projects">
-      <h1>Projects</h1>
-        <ul>
-        <!--<li><h2><a href="http://www.realitysky.com">Reality Sky</a></h2>
-          <p>Custom Written Drip Email Campaigns -Customer Development Stages <br/> Currently we are looking for service industry owners to help us refine our products. Email Spencer@realitysky.com, if you'd be interested in helping us refine our email campaign system.</p> </li> -->
-        <li><h2><a href="http://www.spencermortenson.xyz">SpencerMortenson.xyz</a></h2>
-          <p>Coming soon</p></li>
-      </ul> 
-    </div>
-    <% track_event("SMMainPageView") %>
+    <% end %>
+  </div>
   </div>
 </div>
+
+
+
+    <% track_event("SMEntryPageView") %>
+
 <%= render 'layouts/footer' %>
