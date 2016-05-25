@@ -1,6 +1,56 @@
 <%= render 'layouts/headerDev' %>
 <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2 topic">
+      <h1>Web Development Services</h1>
+      <p>Whether you are looking for a site for your side business as a baker or looking to build a fully functional web application, we can help.</p>
+      <p>Have you always wanted a blog or a personal site for that business you dreamed of starting? A website is an invaluable tool for building your brand.</p>
+      <p>Are you a realtor looking a custom site for your property? Ask us how we can help with economical solutions.</p>
+
+    </div>
+    <div class="col-md-3 devimage">
+      <%= image_tag("wireframe.jpg", :class => 'colimage') %>
+
+    </div>
+    <div class="col-md-3 devimage">
+      <%= image_tag("workspace.jpg", :class => 'colimage') %>
+    </div>
+    <div class="col-md-3 devimage">
+      <%= image_tag("CoffeeLaptop.jpg", :class => 'colimage') %>
+    </div>
+    <div class="col-md-3 devimage">
+      <%= image_tag("coffee.jpg", :class => 'colimage') %>
+    </div>
+  </div>
+    <div class="row">
+    <div class="col-md-8 col-md-offset-2 topic">
+      <h1>Services</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3 service">
+      <h1>Wordpress Site Setups</h1>
+    </div>
+    <div class="col-md-3 service">
+      <h1>Wordpress Customization</h1>
+    </div>
+    <div class="col-md-3 service">
+      <h1>Custom Written Websites</h1>
+    </div>
+    <div class="col-md-3 service">
+      <h1>Web Apps</h1>
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2 topic">
+      <h1>Get a hold of us and let's get started</h1>
+      <p>Call us at <a href="tel:1-780-913-0977">(780) 913 0977</a></p>
+      <p>Or Email us at <a href="mailto:spencer.mortenson@gmail.com">spencer.mortenson@gmail.com</a> </p>
+    </div>
 
 
-
+  </div>
  </div>
+<% track_event("SMDevPageView") %>
+<%= render 'layouts/footer' %>

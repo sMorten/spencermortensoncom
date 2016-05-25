@@ -48,34 +48,16 @@ $navbar-default-link-hover-color: white;
   border: 5px solid #0099FF;
   background-color:#00CC00;
 }
-
-@media screen and (min-width: 980px) /* Desktop */ {
-  body {
-
-  }
+.smjumbo{
+   height:100px;
+   align:center;
+   margin:0 auto;
 }
-
-@media screen  and (max-width: 979px) /* Tablet */ {
-  body {
-
-  }
+.jumbotron h2{
+  text-align:center;
+  font-size:2em;
+  text-transform:uppercase;
 }
-
-@media screen and (max-width: 500px) /* Mobile */ {
-  body {
-    .btnMain1{
-
-
-  border: 3px solid #00CC00;
-  margin-top:70px;
-
-  font-size: 0.8em;
-  text-decoration:none;
-}
-
-  }
-}
-
 .navbar-default li {
   font-size:1.3em;
   text-align:center;
@@ -156,13 +138,62 @@ margin:0;
   padding-top:20px;
 
 }
-.jumbotron h2{
-  text-align:center;
-  font-size:2em;
-  text-transform:uppercase;
-}
+
 .fixed {
 	position: fixed;
 	top: 0;
   width:100%
 }
+.service{
+  border:3px solid #00CC00;
+  text-align:center;
+  border-radius: 2em;
+margin-top:50px;
+  margin-bottom:50px;
+}
+.service h1{
+  font-size:1.5em;
+}
+.devimage{
+  text-align:center;
+  align:center;
+}
+.colimage{
+  height:200px;
+
+}
+@media screen and (min-width: 980px) /* Desktop */ {
+  body {
+
+  }
+}
+
+@media screen  and (max-width: 979px) /* Tablet */ {
+  body {
+
+  }
+}
+
+@media screen and (max-width: 500px) /* Mobile */ {
+  body {
+    .btnMain1{
+
+
+  border: 3px solid #00CC00;
+  margin-top:70px;
+
+  font-size: 0.8em;
+  text-decoration:none;
+}
+
+  }
+  .smjumbo{
+    height:75px;
+
+  }
+  .jumbotron h2{
+  font-size:1.5em;
+
+}
+}
+
