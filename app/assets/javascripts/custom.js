@@ -5,17 +5,17 @@ $(document).on('page:load',function() {
 
 
   });
-	   $(window).bind('scroll', function() {
+	  /* $(window).bind('scroll', function() {
      var h = $('nav').height();
 	   var navHeight = $( window ).height()-h;
-     
+
 			 if ($(window).scrollTop() > navHeight) {
 				 $('nav').addClass('fixed');
 			 }
 			 else {
 				 $('nav').removeClass('fixed');
 			 }
-		});
+		});*/
 
 });
 $(document).ready(function() {
@@ -24,17 +24,17 @@ $(document).ready(function() {
 
 
   });
-	   $(window).bind('scroll', function() {
+	  /* $(window).bind('scroll', function() {
      var h = $('nav').height();
 	  var navHeight = $( window ).height()-h;
-       
+
 			 if ($(window).scrollTop() > navHeight) {
 				 $('nav').addClass('fixed');
 			 }
 			 else {
 				 $('nav').removeClass('fixed');
 			 }
-		});
+		});*/
 
 });
 
