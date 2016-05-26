@@ -7,7 +7,8 @@ $(document).on('page:load',function() {
   });
 	   $(window).bind('scroll', function() {
      var h = $('nav').height();
-	   var navHeight = $( window ).height()-h*3;
+	   var navHeight = $( window ).height()-h;
+     
 			 if ($(window).scrollTop() > navHeight) {
 				 $('nav').addClass('fixed');
 			 }
@@ -25,7 +26,8 @@ $(document).ready(function() {
   });
 	   $(window).bind('scroll', function() {
      var h = $('nav').height();
-	   var navHeight = $( window ).height()-h*3;
+	  var navHeight = $( window ).height()-h;
+       
 			 if ($(window).scrollTop() > navHeight) {
 				 $('nav').addClass('fixed');
 			 }
