@@ -163,6 +163,10 @@ margin-top:50px;
   height:200px;
 
 }
+.endimage{
+  width:100%;
+  margin-top:50px;
+}
 @media screen and (min-width: 980px) /* Desktop */ {
   body {
 
@@ -200,5 +204,8 @@ margin-top:50px;
   height:100px;
 
 }
+  .endimage{
+    margin-top:30px;
+  }
 }
 
